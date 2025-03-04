@@ -1,20 +1,27 @@
-body {
-    max-width: 860px;
-    margin: 0 auto;
+#gridSize {
+    background-color: olivedrab;
+    color: white;
+    padding: .8rem;
+    font-size: 20px;
+    margin-top: 1rem;
+    margin: 1rem auto;
+    display: block;
 }
 
 .container {
+    width: 960px;
+    height: 960px;
     display: flex;
+    flex: 1;
     flex-wrap: wrap;
     margin-top: 20px;
 }
 
 .container div {
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
-    border-radius: 2px;
+    border: 1px solid gainsboro;
+    box-sizing: border-box;
 }
+
 
 
 
